@@ -1,0 +1,149 @@
+/*-------------------------------------------------------
+		GERAL
+-------------------------------------------------------*/
+* {
+	font-family: 'droid sans', 'oswald', sans-serif;
+	margin: 0 auto;
+	padding: 0;/*
+	border:	1px solid red;*/
+}
+html {
+	font-size: 16px;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/*-------------------------------------------------------
+		#HEADER
+-------------------------------------------------------*/
+header {
+	width: 100%;
+	height: 200px;
+	line-height: 1;
+	text-align: center;
+	position: relative;
+	display: block;
+}
+
+#header	{
+	background: #fff;
+	height: 120px;
+}
+/*-- #HEADER LOGO --*/
+.headerLogo h1 {
+	color: #cf2c01;
+	font-size: 2.5em;
+}
+
+#headerLogoPotions{
+	font-weight: 400;
+}
+
+.headerLogo h2 {
+	font-family: serif;
+	font-style: italic;
+	color: #412a56;
+}
+.headerLogo {
+	float: left;
+	width: 30%;
+	margin: 30px 20px;
+}
+
+/*-- #HEADER SEARCH --*/
+.headerSearch {
+	float: left;
+	width: 20%;
+	margin: 30px 20px;
+}
+	float: left;
+
+/*-- #HEADER BAG --*/
+.headerBag {
+	width: 40%;
+	margin: 30px 20px;
+	padding: 100px;
+	background: #000;
+	border: 10px	solid red;
+}
+
+.bag1 {
+	float: left;
+	text-align: center;
+}
+
+/*-------------------------------------------------------
+		#HEADER MENU
+-------------------------------------------------------*/
+
+/*-- #HEADER MENU GERAL --*/
+#headerMenu {
+	color: 	#ccc;
+ 	background: purple;
+ 	height: 80px;
+ 	padding: 0 40px;
+ 	clear: both;
+}
+
+/*-- #HEADER MENU hiperlinks geral --*/
+.headerMenu li a:link,
+.headerMenu li a:visited {
+	color: #fff;
+	float: 	left;
+	margin: 15px 15px;
+	padding: 15px 15px;
+	border-radius: 	10px;
+}
+
+.headerMenu	p a:link,
+.headerMenu	p a:visited	{
+	color: 	#fff;
+	margin: 10px 5px;
+	padding: 20px;
+	border-radius: 	10px;
+}
+
+.headerMenu li a:hover,
+.headerMenu	p a:hover {
+	color: #fff;
+	font-size: 	1.1em;
+	text-decoration: underline;
+}
+
+.headerMenu	li a:hover {
+	border-radius: 	10px;
+	background-color: #412a56;
+	text-decoration: 	none;
+}
+
+/*-- #HEADER MENU PARÁGRAFOS --*/
+.headerMenu	p {
+	font-style: italic;
+	padding: 30px;
+}
+
+/*-------------------------------------------------------
+		#FOOTER
+-------------------------------------------------------*/
+footer {
+	background: #e6e6e6;
+	margin: 30px;
+	padding: 10px;
+	line-height: 30px;
+
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+#rodape {
+}
