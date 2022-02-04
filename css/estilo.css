@@ -2,10 +2,10 @@
 		GERAL
 -------------------------------------------------------*/
 * {
-	font-family: 'droid sans', 'oswald', sans-serif;
+	font-family: 'Droid sans', 'Oswald', sans-serif;
 	margin: 0 auto;
-	padding: 0;/*
-	border:	1px solid red;*/
+	padding: 0;
+	font-weight: 100;
 }
 html {
 	font-size: 16px;
@@ -25,6 +25,7 @@ ul {
 -------------------------------------------------------*/
 header {
 	width: 100%;
+	min-width: 1200px;
 	height: 200px;
 	line-height: 1;
 	text-align: center;
@@ -33,17 +34,30 @@ header {
 }
 
 #header	{
+	width: 92%;
+	height: 130px;
+	padding: 0px 4%;
 	background: #fff;
-	height: 120px;
 }
 /*-- #HEADER LOGO --*/
-.headerLogo h1 {
-	color: #cf2c01;
-	font-size: 2.5em;
+.headerLogo {
+	width: 24%;
+	min-width: 300px;
+	height: 65px;
+	margin: 30px 2% 30px 2%;
+	float: left;
+	border:	1px solid red;
 }
 
-#headerLogoPotions{
-	font-weight: 400;
+.headerLogo1 h1 {
+	color: #cf2c01;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.headerLogo1 h1, .headerLogo1 span {
+	font-family: 'Oswald', sans-serif;
 }
 
 .headerLogo h2 {
@@ -51,32 +65,67 @@ header {
 	font-style: italic;
 	color: #412a56;
 }
-.headerLogo {
-	float: left;
-	width: 30%;
-	margin: 30px 20px;
+
+.headerLogo a:hover {
+	font-size: 1.05em;
 }
 
 /*-- #HEADER SEARCH --*/
 .headerSearch {
+	width: 30%;
+	min-width: 200px;
+	height: 65px;
+	margin: 30px 2%;
 	float: left;
-	width: 20%;
-	margin: 30px 20px;
+	border:	1px solid red;
 }
-	float: left;
 
 /*-- #HEADER BAG --*/
 .headerBag {
-	width: 40%;
-	margin: 30px 20px;
-	padding: 100px;
-	background: #000;
-	border: 10px	solid red;
+	width: 25%;
+	min-width: 278px;
+	height: 65px;
+	margin: 30px 2% 30px 2%;
+	padding: 0px 2.5%;
+	float: left;
+	border:	1px solid red;
 }
 
 .bag1 {
+	color: #cf2c01;
+	font-size: 0.9em;
+	font-style: italic;
+	line-height: 25px;
+	margin: 7px 0px;
 	float: left;
-	text-align: center;
+	border:	1px solid red;
+}
+
+.bag1 div {
+	font-size: 0.8em;
+}
+
+.bag2 {	
+	border:	1px solid yellowgreen;
+	float: left;
+	margin: 10px 15px;
+}
+
+.bag3 {
+	width: 300px;
+	height: 24px;
+	margin: 20px 0 20px 0;
+}
+
+.bag3 a {
+	color: #aaa;
+	float: left;
+	border:	1px solid blue;
+}
+
+.bag3 span {
+	color: #cf2c01;
+	font-weight: 1000;
 }
 
 /*-------------------------------------------------------
