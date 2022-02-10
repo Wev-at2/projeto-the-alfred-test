@@ -46,7 +46,6 @@ header {
 	height: 65px;
 	margin: 30px 2% 30px 2%;
 	float: left;
-	border:	1px solid red;
 }
 
 .headerLogo1 h1 {
@@ -77,7 +76,35 @@ header {
 	height: 65px;
 	margin: 30px 2%;
 	float: left;
-	border:	1px solid red;
+	z-index: 1;
+}
+
+#searchBox {
+	position: relative;
+	border:	1.5px solid #000;
+	border-radius: 6px;
+	margin: 10px 20px;
+	padding: 12px;
+	height: 20px;
+}
+
+.searchBox {
+	position: absolute;
+	border: none;
+	float: left;
+	font-size: 1em;
+	left: 48px;
+}
+
+.buttonSearch {
+	background: url(../imagens/icons/lupa.jpg) no-repeat left center;
+	border: none;
+	color: #d6391e;
+	width: 20px;
+	height: 20px;
+	float: left;
+	cursor: pointer;
+	left: 0;
 }
 
 /*-- #HEADER BAG --*/
@@ -88,8 +115,8 @@ header {
 	margin: 30px 2% 30px 2%;
 	padding: 0px 2.5%;
 	float: left;
-	border:	1px solid red;
 }
+
 
 .bag1 {
 	color: #cf2c01;
@@ -98,15 +125,13 @@ header {
 	line-height: 25px;
 	margin: 7px 0px;
 	float: left;
-	border:	1px solid red;
 }
 
 .bag1 div {
 	font-size: 0.8em;
 }
 
-.bag2 {	
-	border:	1px solid yellowgreen;
+.bag2 {
 	float: left;
 	margin: 10px 15px;
 }
@@ -120,7 +145,6 @@ header {
 .bag3 a {
 	color: #aaa;
 	float: left;
-	border:	1px solid blue;
 }
 
 .bag3 span {
