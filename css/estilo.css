@@ -213,10 +213,9 @@ header {
 -------------------------------------------------------*/
 footer {
 	background: #e6e6e6;
-	height: 300px;
 	padding: 10px;
-	line-height: 30px;
-	border: 1px solid	black;
+	line-height: 30px;/*
+	border: 1px solid	black;*/
 }
 
 label {
@@ -228,16 +227,16 @@ label {
 	float: left;
 	width: 440px;
 	min-width: 440px;
-	margin: 10px 50px;
-	padding: 10px;
-	border: 1px solid blue;
+	margin: 10px 70px;
+	padding: 10px;/*
+	border: 1px solid blue;*/
 }
 
 .rodapeRight {
 	float: 	right;
 	font-family: 'Oswald';
-	width: 30%;
-	margin: 20px 60px;
+	width: 400px;
+	margin: 20px 70px;
 	padding: 10px;
 	background: #fff;
 	border: none;
@@ -249,14 +248,37 @@ label {
 	color: 	#d6391e;
 	font-size: 25px;
 	margin: 10px;
-	float: left;
-	border: 1px solid green;
+	float: left;/*
+	border: 1px solid green;*/
 }
 
 #social img{
-	border: 1px solid green;
 	margin: 10px 26px;
-	float: left;
+	float: left;/*
+	border: 1px solid green;*/
+}
+
+#email, #submit {
+	padding: 10px 30px;
+	margin: 5px 10px 10px 10px;
+	border: 1px solid #000;
+	border-radius: 	4px;
+
+}
+
+#newsletter {
+	padding: 0 10px 20px 10px;
+}
+
+#submit {
+	background: #d6391e;
+	color: 	#fff;
+}
+
+#direitos {
+	padding: 10px;
+	margin: 10px 70px;
+	color: #666;
 }
 
 #links, #social, #direitos {
